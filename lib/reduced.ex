@@ -1,9 +1,4 @@
 defmodule Reduced do
-  def load(file) do
-    :yamerl_constr.file(file)
-  end
-
-
   def flatten_nested_keys([{key, value}]) do
     flatten_nested_keys({key, value})
   end
