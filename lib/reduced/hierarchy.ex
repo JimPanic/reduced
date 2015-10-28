@@ -1,5 +1,3 @@
-require IEx
-
 defmodule Reduced.Hierarchy do
   @interpolation_regex ~r/^(?<datadir>.*)?%{(::)?(?<interpolation_key>[a-zA-Z_-]+)}$/u
 
